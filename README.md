@@ -1,39 +1,220 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+#Bridgend Book Club Website
 
-Welcome,
+![Bridgend Book Club Website Mock-up] () <!--INSERT MOCK UP IMAGES AT THE END -->
 
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+#### **By Ffion Haf Edwards**
+[Click here to view the live web application] () <!--INSERT LINK ONCE SITE IS DEPLOYED -->
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **August 30th, 2023**
+#### **BRIDGEND BOOK CLUB**
 
-## Codeanywhere Reminders
+This is the documentation for the fictional Bridgend Book Club's  website. It has been built using HTML5 & CCS3 for educational purposes as part of the Code Institute's Diploma in Web Application Development.
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+##Table of Contents
 
-`python3 -m http.server`
+- [Project Development \& Planning](#project-development--planning)
+  - [Project Goals](#project-goals)
+    - [**Project Purpose**](#project-purpose)
+    - [**Client Background**](#client-background)
+    - [**Client Goals**](#client-goals)
+    - [**User Goals**](#user-goals)
+  - [Research](#research)
+    - [**Market Review**](#market-review)
+    - [**Key Takeaways from Market Review**](#key-takeaways-from-market-review)
+  - [User Stories](#user-stories)
+    - [**User Story 1:**](#user-story-1)
+    - [**User Story 2:**](#user-story-2)
+    - [**User Story 3:**](#user-story-3)
+  - [Design, Layout \& Structure](#design-layout--structure)
+    - [**Wireframes**](#wireframes)
+    - [**Structure**](#structure)
+    - [**Colour**](#colour)
+    - [**Fonts**](#fonts)
+- [Technologies Used](#technologies-used)
+  - [Languages](#languages)
+  - [Tools](#tools)
+- [Features](#features)
+  - [Whole Site](#whole-site)
+    - [**Nav Bar**](#nav-bar)
+    - [**Hero**](#hero)
+    - [**Footer**](#footer)
+    - [**Favicon**](#favicon)
+  - [Home Page](#home-page)
+    - [**Bio \& Join Us Button**](#bio--join-us-button)
+  - [About Us](#about-us)
+    - [**About Us Sections**](#about-us-sections)
+    - [**Call To Action**](#call-to-action)
+  - [Book Club](#book-club)
+    - [**Book Club Options**](#book-club-options)
+  - [Join Us](#join-us)
+    - [**Join Us Info \& Form**](#join-us-info--form)
+  - [Other Pages](#other-pages)
+    - [**Thankyou Page**](#thankyou-page)
+    - [**404 Page**](#404-page)
+  - [Future Features](#future-features)
+- [Testing \& Bugs](#testing--bugs)
+  - [HTML Validation](#html-validation)
+  - [CSS Validation](#css-validation)
+  - [Accessibility](#accessibility)
+  - [Performance](#performance)
+  - [Responsiveness / Device Testing](#responsiveness--device-testing)
+  - [Browser Compatibility](#browser-compatibility)
+  - [Bugs \& Fixes](#bugs--fixes)
+  - [Testing User Stories](#testing-user-stories)
+- [Deployment](#deployment)
+- [Credits](#credits)
+  - [Code](#code)
+  - [Content](#content)
+  - [Media](#media)
+  - [Acknowledgements](#acknowledgements)
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+## Project Development & Planning
+I followed the principles of User Experience (UX) in the planning and development of my website, including the 5 planes of which are Strategy, Scope, Structure, Skeleton & Surface. 
 
-`http_server`
+I wanted to ensure that the webaite was easy to use, responsive, accessible and intuitive. It was imperative that the website met the goals and needs of both the user and client.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+### Project Goals
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+#### **Project Purpose**
+<!-- Insert project purpose here-->
 
-To log into the Heroku toolbelt CLI:
+#### **Client Background**
+<!-- Insert client background here-->
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+#### **Client Goals**
+<!-- Insert client goals here-->
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+#### **User Goals**
+<!-- Insert user goals here-->
 
----
+### Research
 
-Happy coding!
+#### **Market Review**
+<!-- Insert market review details here-->
+
+#### **Key Takeaways from Market Review**
+<!--Insert key takeaways here-->
+
+### User Stories
+
+#### **User Story 1:**
+<!-- Insert user stories here-->
+
+#### **User Story 2:**
+<!-- Insert user stories here-->
+
+#### **User Story 3:**
+<!-- Insert user stories here-->
+
+### Design, Layout & Structure
+
+<!-- Insert info here-->
+
+#### **Wireframes**
+<!-- Insert links here for HOME/ ABOUT/ BOOK CLUB/ JOIN US wireframes-->
+
+#### **Structure**
+
+<!-- Insert structure info here-->
+
+#### **Colour**
+<!-- Insert info here-->
+
+#### **Fonts**
+<!-- Insert info here-->
+
+## Technologies Used
+
+### Languages
+<!-- Insert info here-->
+
+### Tools
+<!-- Insert info here-->
+
+## Features
+
+### Whole Site
+
+#### **Nav Bar**
+<!-- Insert info here-->
+
+#### **Hero**
+<!-- Insert info here-->
+
+#### **Footer**
+<!-- Insert info here-->
+
+#### **Favicon**
+<!-- Insert info here-->
+
+### Home Page
+
+#### **Bio & Join Us Button**
+<!-- Insert info here-->
+
+### About Us
+
+#### **About Us Sections**
+<!-- Insert info here-->
+
+#### **Call To Action**
+<!-- Insert info here-->
+
+### Book Club
+
+#### **Book Club Options**
+<!-- Insert info here regarding the different bookclubs available ie fiction-->
+### Join Us
+
+#### **Join Us Info & Form**
+<!-- Insert info here-->
+
+### Other Pages
+
+#### **Thankyou Page**
+<!-- Insert info here-->
+
+#### **404 Page**
+<!-- Insert info here-->
+
+### Future Features
+<!-- Insert info here-->
+
+## Testing & Bugs
+### HTML Validation
+<!-- Insert info here-->
+
+### CSS Validation
+<!-- Insert info here-->
+
+### Accessibility
+<!-- Insert info here-->
+
+### Performance
+<!-- Insert info here-->
+
+### Responsiveness / Device Testing
+<!-- Insert info here-->
+
+### Browser Compatibility
+<!-- Insert info here-->
+
+### Bugs & Fixes
+<!-- Insert info here-->
+
+### Testing User Stories
+<!-- Insert info here-->
+
+## Deployment
+<!-- Insert info here-->
+
+## Credits
+### Code
+<!-- Insert info here-->
+### Content
+<!-- Insert info here-->
+### Media
+<!-- Insert info here-->
+
+### Acknowledgements
