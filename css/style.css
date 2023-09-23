@@ -1,3 +1,9 @@
+/* General Styling */
+.main-bg {
+    background-color: #fbf9f6;
+}
+
+/* Navbar Styling */
 .navbar {
     font-family: 'Merriweather', serif;
 }
