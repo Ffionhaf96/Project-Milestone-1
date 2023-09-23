@@ -222,6 +222,7 @@ Using a custom Google Font did not show initially when targeting `html` element.
 ### Code
 <!-- Insert info here-->
 commit 3174818: [move navbar list items to right](https://stackoverflow.com/a/70125008)
+
 ### Content
 <!-- Insert info here-->
 ### Media
