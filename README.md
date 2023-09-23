@@ -3,6 +3,7 @@
 ![Bridgend Book Club Website Mock-up] () <!--INSERT MOCK UP IMAGES AT THE END -->
 
 #### **By Ffion Haf Edwards**
+
 [Click here to view the live web application] () <!--INSERT LINK ONCE SITE IS DEPLOYED -->
 
 #### **BRIDGEND BOOK CLUB**
@@ -70,12 +71,11 @@ This is the documentation for the fictional Bridgend Book Club's  website. It ha
     - [Media](#media)
     - [Acknowledgements](#acknowledgements)
 
-
 ## Project Development & Planning
-I followed the principles of User Experience (UX) in the planning and development of my website, including the 5 planes of which are Strategy, Scope, Structure, Skeleton & Surface. 
+
+I followed the principles of User Experience (UX) in the planning and development of my website, including the 5 planes of which are Strategy, Scope, Structure, Skeleton & Surface.
 
 I wanted to ensure that the webaite was easy to use, responsive, accessible and intuitive. It was imperative that the website met the goals and needs of both the user and client.
-
 
 ### Project Goals
 
@@ -185,6 +185,7 @@ I wanted to ensure that the webaite was easy to use, responsive, accessible and 
 <!-- Insert info here-->
 
 ## Testing & Bugs
+
 ### HTML Validation
 <!-- Insert info here-->
 
@@ -213,6 +214,7 @@ I wanted to ensure that the webaite was easy to use, responsive, accessible and 
 <!-- Insert info here-->
 
 ## Credits
+
 ### Code
 <!-- Insert info here-->
 ### Content
