@@ -186,6 +186,10 @@ I wanted to ensure that the webaite was easy to use, responsive, accessible and 
 
 ## Testing & Bugs
 
+### Bug: Custom Google font not showing
+
+Using a custom Google Font did not show initially when targeting `html` element. This is because bootstrap defines it's own, ["native" font stack](https://getbootstrap.com/docs/5.3/content/reboot/#native-font-stack) which meant I had to override elements with a higher specificity in the CSS file. e.g. `navbar-brand`
+
 ### HTML Validation
 <!-- Insert info here-->
 
