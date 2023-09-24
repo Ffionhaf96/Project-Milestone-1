@@ -3,11 +3,20 @@
     background-color: #fbf9f6;
 }
 
-/* Navbar Styling */
-.navbar {
+.body-height-75 {
+    height: 75vh;
+}
+
+/* Font Styling */
+.bbc-font {
     font-family: 'Merriweather', serif;
 }
 
+.bbc-fw {
+    font-weight: 700;
+}
+
+/* Navbar Styling */
 .navbar-brand {
     font-weight: 700;
     font-size: calc(20px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
