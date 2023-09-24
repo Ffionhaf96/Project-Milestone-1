@@ -120,13 +120,13 @@ A market review of book club websites reveals a dynamic landscape shaped by the 
 
 - [Goodreads Book Clubs](https://www.goodreads.com/group/show_tag/bookclub): Goodreads offers a platform for various book clubs where members can engage in discussions, discover new books, and connect with other readers.
 
-- [Meetup Book Clubs](https://www.meetup.com/): Meetup.com hosts numerous book clubs, both virtual and in-person, that cater to different genres and reading preferences. Example: [book club nyc]](https://www.meetup.com/book-club-nyc/).
+- [Meetup Book Clubs](https://www.meetup.com/): Meetup.com hosts numerous book clubs, both virtual and in-person, that cater to different genres and reading preferences. Example: [book club nyc](https://www.meetup.com/book-club-nyc/).
   
 - [Oprah's Book Club](https://www.oprah.com/app/books.html): Oprah's Book Club has a dedicated online presence with discussions, recommendations, and resources for its members.
 
 - [Reddit Book Clubs](https://www.reddit.com/): Reddit has several active book club communities like r/bookclub where members discuss and vote on monthly book selections. Example: [r/bookclub](https://www.reddit.com/r/bookclub/)
 
--[CardiffRead](https://cardiffread.co.uk/): Local book club website in South Wales that features schedules, book lists and FAQs.
+- [CardiffRead](https://cardiffread.co.uk/): Local book club website in South Wales that features schedules, book lists and FAQs.
 
 #### **Key Takeaways from Market Review**
 
