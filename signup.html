@@ -23,9 +23,9 @@
     <title>Bridgend Local Book Library - Home</title>
   </head>
   <body class="main-bg">
-    <nav class="navbar navbar-expand-lg">
+    <nav class="row navbar navbar-expand-lg bbc-font">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand mx-0" href="#">
           <img
             src="images/BridgendBookClubLogo.png"
             alt="Bootstrap"
@@ -34,7 +34,7 @@
           />
         </a>
 
-        <a class="navbar-brand" href="index.html">Bridgend Book Club</a>
+        <a class="navbar-brand mx-0" href="index.html">Bridgend Book Club</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -50,18 +50,18 @@
           class="collapse navbar-collapse justify-content-end"
           id="navbarNavDropdown"
         >
-          <ul class="navbar-nav">
+          <ul class="navbar-nav mx-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link" aria-current="page" href="index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
+              <a class="nav-link" href="about.html">About</a>
             </li>
 
             <li class="nav-item dropdown">
               <a
                 class="nav-link dropdown-toggle"
-                href="#"
+                href="bookclubs.html"
                 role="button"
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
@@ -69,6 +69,13 @@
                 Book Clubs
               </a>
               <ul class="dropdown-menu">
+                <li>
+                  <a
+                    class="dropdown-item border-bottom py-2"
+                    href="bookclubs.html"
+                    >View All</a
+                  >
+                </li>
                 <li><a class="dropdown-item" href="#">Fiction</a></li>
                 <li><a class="dropdown-item" href="#">Non-Fiction</a></li>
                 <li><a class="dropdown-item" href="#">Science-Fiction</a></li>
@@ -77,77 +84,136 @@
               </ul>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Join Us</a>
+              <a class="nav-link active" href="signup.html">Join Us</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
-    <form class="d-grid col-md-12 justify-content-center align-content-center">
-      <div class="mb-3">
-        <label for="exampleInputEmail1" class="form-label">Email address</label>
+
+    <form
+      action="thankyou.html" method="get" class="row border col-sm-6 p-3 offset-sm-3 justify-content-center align-content-center"
+    >
+      <h1 class="py-3 text-center bbc-font bbc-fw">Join Us</h1>
+      <p class="text-center">
+        Our goal is to create a fun and engaging environment where members can
+        connect with each other, discover new books, and share their love for
+        reading. We believe that reading is not just a hobby but a way of life,
+        and we want to inspire others to read more and explore new genres. If
+        you're interested in joining our book club, please fill out the Join Us'
+        form on our website. We look forward to hearing from you!
+      </p>
+      <div class="mb-3 mt-5">
+        <label for="name" class="form-label bbc-fw">Full name</label>
         <input
           type="text"
           class="form-control"
           id="name"
-          aria-describedby="emailHelp"
+          placeholder="Emily Bronte"
+          aria-label="Your full name"
+          required
         />
-        <div id="emailHelp" class="form-text">
-          We'll never share your email with anyone else.
-        </div>
       </div>
-      <div class="mb-3">
-        <label for="exampleInputEmail1" class="form-label">Email address</label>
+      <div class="my-3">
+        <label for="email" class="form-label bbc-fw">Email address</label>
         <input
           type="email"
           class="form-control"
-          id="exampleInputEmail1"
+          id="email"
+          name="email"
+          placeholder="email@example.com"
+          aria-label="Your email address"
           aria-describedby="emailHelp"
+          required
         />
         <div id="emailHelp" class="form-text">
           We'll never share your email with anyone else.
         </div>
       </div>
-      <div class="mb-3">
-        <label for="exampleInputPassword1" class="form-label">Password</label>
-        <input
-          type="password"
-          class="form-control"
-          id="exampleInputPassword1"
-        />
-      </div>
+      <p class="my-3 bbc-fw">Select which book clubs you wish to join!</p>
       <div class="mb-3 form-check">
-        <input type="checkbox" class="form-check-input" id="exampleCheck1" />
-        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+        <input
+          type="checkbox"
+          class="form-check-input"
+          id="fiction"
+          name="bcselection"
+        />
+        <label for="fiction" class="form-check-label">Fiction</label>
       </div>
-      <button type="submit" class="btn btn-primary">Submit</button>
-    </form>
-    <footer
-      class="d-flex flex-wrap justify-content-between align-items-center fixed-bottom p-3 my-4 border-top"
-    >
-      <div class="col-md-4 d-flex align-items-center">
-        <span class="mb-3 mb-md-0 text-body-secondary"
-          >© 2023 Company, Inc</span
+
+      <div class="mb-3 form-check">
+        <input
+          type="checkbox"
+          class="form-check-input"
+          id="nonFiction"
+          name="bcselection"
+        />
+        <label for="nonFiction" class="form-check-label">Non-Fiction</label>
+      </div>
+
+      <div class="mb-3 form-check">
+        <input
+          type="checkbox"
+          class="form-check-input"
+          id="scienceFiction"
+          name="bcselection"
+        />
+        <label for="scienceFiction" class="form-check-label"
+          >Science-Fiction</label
         >
       </div>
 
-      <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-        <li class="ms-3">
-          <a class="text-body-secondary" href="#">
-            <i class="fa-brands fa-facebook-f"></i>
-          </a>
-        </li>
-        <li class="ms-3">
-          <a class="text-body-secondary" href="#">
-            <i class="fa-brands fa-instagram"></i
-          ></a>
-        </li>
-        <li class="ms-3">
-          <a class="text-body-secondary" href="#">
-            <i class="fa-brands fa-x-twitter"></i>
-          </a>
-        </li>
-      </ul>
+      <div class="mb-3 form-check">
+        <input
+          type="checkbox"
+          class="form-check-input"
+          id="romance"
+          name="bcselection"
+        />
+        <label for="romance" class="form-check-label">Romance</label>
+      </div>
+
+      <div class="mb-3 form-check">
+        <input
+          type="checkbox"
+          class="form-check-input"
+          id="thriller"
+          name="bcselection"
+        />
+        <label for="thriller" class="form-check-label">Thriller</label>
+      </div>
+
+      <button
+        type="submit"
+        class="btn btn-outline-dark"
+      >
+        Join!
+      </button>
+    </form>
+    <footer class="container-fluid border-top mt-4">
+      <div class="row">
+        <div class="col">
+          <span class="text-body-secondary">© Bridgend Book Club | 2023</span>
+        </div>
+
+        <ul class="nav col justify-content-end list-unstyled">
+          <li class="ms-3">
+            <a class="text-body-secondary" href="#">
+              <i class="fa-brands fa-facebook-f"></i>
+            </a>
+          </li>
+          <li class="ms-3">
+            <a class="text-body-secondary" href="#">
+              <i class="fa-brands fa-instagram"></i
+            ></a>
+          </li>
+          <li class="ms-3">
+            <a class="text-body-secondary" href="#">
+              <i class="fa-brands fa-x-twitter"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
     </footer>
     <!-- Bootstrap JS, Popper.js -->
     <script
