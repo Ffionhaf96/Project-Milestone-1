@@ -190,6 +190,16 @@ I wanted to ensure that the webaite was easy to use, responsive, accessible and 
 
 Using a custom Google Font did not show initially when targeting `html` element. This is because bootstrap defines it's own, ["native" font stack](https://getbootstrap.com/docs/5.3/content/reboot/#native-font-stack) which meant I had to override elements with a higher specificity in the CSS file. e.g. `navbar-brand`
 
+### Bug: X-Overflow on footer
+
+TODO: Fix x-overflow caused by footer
+
+### Bug: Page refreshing submitting form
+
+When clicking the "Join!" button it was only refreshing to the form page again. I wanted it to go to a thank you page.
+
+Using [mdn web docs](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form) I found that form has an `action` attribute that can set the URL to process a form submission.
+
 ### HTML Validation
 <!-- Insert info here-->
 
@@ -208,9 +218,6 @@ Using a custom Google Font did not show initially when targeting `html` element.
 ### Browser Compatibility
 <!-- Insert info here-->
 
-### Bugs & Fixes
-<!-- Insert info here-->
-
 ### Testing User Stories
 <!-- Insert info here-->
 
@@ -220,8 +227,10 @@ Using a custom Google Font did not show initially when targeting `html` element.
 ## Credits
 
 ### Code
-<!-- Insert info here-->
+
 commit 3174818: [move navbar list items to right](https://stackoverflow.com/a/70125008)
+
+commit XXXXXXX [Responsive font-size](https://css-tricks.com/snippets/css/fluid-typography/)
 
 ### Content
 <!-- Insert info here-->
