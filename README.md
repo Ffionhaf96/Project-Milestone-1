@@ -194,7 +194,7 @@ Using a custom Google Font did not show initially when targeting `html` element.
 
 TODO: Fix x-overflow caused by footer
 
-### Bug: Page refreshing submitting form
+### Bug: Page refreshing when submitting form
 
 When clicking the "Join!" button it was only refreshing to the form page again. I wanted it to go to a thank you page.
 
