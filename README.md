@@ -306,7 +306,8 @@ commit 3174818: [move navbar list items to right](https://stackoverflow.com/a/70
 commit XXXXXXX [Responsive font-size](https://css-tricks.com/snippets/css/fluid-typography/)
 
 ### Content
-<!-- Insert info here-->
+Written copy provided by ChatGPT for website content including home intro, 'about us' ETC. 
+
 ### Media
 <!-- Insert info here-->
 
