@@ -311,5 +311,11 @@ Written copy provided by ChatGPT for website content including home intro, 'abou
 
 ### Media
 <!-- Insert info here-->
+All imagss contained within the 'book-clubs' asset folder were taken from amazon.com
+[fiction.jpg](https://m.media-amazon.com/images/I/71LpgK2QMvL._SL1500_.jpg)
+[non-fiction.jpg](https://m.media-amazon.com/images/I/81e-1MaYjJL._SL1500_.jpg)
+[romance.jpg](https://m.media-amazon.com/images/I/A1cHsf+YuML._SL1500_.jpg)
+[science-fiction.jpg](https://m.media-amazon.com/images/I/61oivxKw6yL._SL1000_.jpg)
+[thriller](https://m.media-amazon.com/images/I/81chGLxyiPL._SL1500_.jpg)
 
 ### Acknowledgements
