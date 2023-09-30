@@ -3,8 +3,8 @@
     background-color: #fbf9f6;
 }
 
-.body-height-75 {
-    height: 75vh;
+.body-height-85 {
+    height: 85vh;
 }
 
 /* Font Styling */
@@ -22,8 +22,14 @@
     font-size: calc(20px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
 }
 
+.hero {
+    background-image: url(https://placehold.co/1200x400);
+    background-size: cover;
+}
+
+/* Footer */
 footer {
-    height: 1vh;
+    max-height: 100px;
 }
 
 @media screen and (min-width: 1024px) {}
