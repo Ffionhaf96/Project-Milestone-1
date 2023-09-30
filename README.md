@@ -265,7 +265,8 @@ Using a custom Google Font did not show initially when targeting `html` element.
 
 ### Bug: X-Overflow on footer
 
-TODO: Fix x-overflow caused by footer
+Navbar was causing x-overflow because of the gap spacing provided by boostrap by default when using `display: flex` or `display: grid` on elements.
+Using the `gap-0` on the navbar element removed the gap which was causing the element to be wider than the width of the viewport.
 
 ### Bug: Page refreshing when submitting form
 
