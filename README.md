@@ -286,6 +286,10 @@ Using [mdn web docs](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/f
 When setting a filter to make the hero image more opaque using `filter: opacity(0.3)` it was altering the appearance of the `h1` also which made it unreadable. 
 *fix*: 
 
+### Bug: Card group images not aligning
+When changing the images and titles to the respective book genres they became misaligned to each other.
+*fix* 
+
 ### HTML Validation
 <!-- Insert info here-->
 
