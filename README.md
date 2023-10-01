@@ -80,7 +80,15 @@ I wanted to ensure that the webaite was easy to use, responsive, accessible and 
 ### Project Goals
 
 #### **Project Purpose**
-<!-- Insert project purpose here-->
+The purpose of this project is to create a website for the *Bridgend Book Club*. The website will serve as a platform for members to find clubs tailored to their reading interest, as well as to discover upcoming events and meetings. The website will also provide information about the club, including its history, membership details and contact information.
+
+The website will be designed to be user-friendly and accessible to all members of the club. It will be easy to navigate, with clear sections for different types of content. 
+
+Since all meetings and discussions are held in person, the website will not include any virtual meeting features. Instead, it will focus on providing information about upcoming events and meetings.
+
+The website will be built using modern web development technologies, including HTML, CSS, and Bootstrap. It will be hosted on a reliable web server, ensuring that it is always available to members.
+
+Overall, the goal of this project is to create a website that enhances the experience of being a member of the Bridgend Book Club. It is the ambition to foster a sense of community among members and encourage more people to join the club by providing an online platform.
 
 #### **Client Background**
 
