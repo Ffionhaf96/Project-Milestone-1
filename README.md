@@ -282,6 +282,10 @@ When clicking the "Join!" button it was only refreshing to the form page again. 
 
 Using [mdn web docs](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form) I found that form has an `action` attribute that can set the URL to process a form submission.
 
+### Bug: Hero image header h1 opacity
+When setting a filter to make the hero image more opaque using `filter: opacity(0.3)` it was altering the appearance of the `h1` also which made it unreadable. 
+*fix*: 
+
 ### HTML Validation
 <!-- Insert info here-->
 
