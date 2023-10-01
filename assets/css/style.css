@@ -26,6 +26,11 @@
     background-image: url("/assets/images/hero.jpeg");
     background-size: cover;
     min-height: 500px;
+    /* filter: blur(10px); */
+}
+
+.hero h1 {
+    backdrop-filter: blur(10px);
 }
 
 
