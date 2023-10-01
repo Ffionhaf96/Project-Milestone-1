@@ -23,9 +23,11 @@
 }
 
 .hero {
-    background-image: url(https://placehold.co/1200x400);
+    background-image: url("/assets/images/hero.jpeg");
     background-size: cover;
+    min-height: 500px;
 }
+
 
 /* Footer */
 footer {
