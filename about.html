@@ -24,92 +24,74 @@
   </head>
   <body class="main-bg">
     <nav class="row navbar navbar-expand-lg bbc-font g-0">
-      <div class="container-fluid">
-        <a class="navbar-brand mx-0" href="#">
-          <img
-            src="./assets/images/bridgend-book-club-logo.png"
-            alt="Bootstrap"
-            width="90"
-            height="90"
-          />
-        </a>
-
-        <a class="navbar-brand mx-0" href="index.html">Bridgend Book Club</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNavDropdown"
-          aria-controls="navbarNavDropdown"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div
-          class="collapse navbar-collapse justify-content-end"
-          id="navbarNavDropdown"
-        >
-          <ul class="navbar-nav mx-0">
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active bbc-fw" href="about.html">About</a>
-            </li>
-
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="bookclubs.html"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Book Clubs
-              </a>
-              <ul class="dropdown-menu">
-                <li>
-                  <a
-                    class="dropdown-item border-bottom py-2"
-                    href="bookclubs.html"
-                    >View All</a
-                  >
-                </li>
-                <li><a class="dropdown-item" href="#">Fiction</a></li>
-                <li><a class="dropdown-item" href="#">Non-Fiction</a></li>
-                <li><a class="dropdown-item" href="#">Science-Fiction</a></li>
-                <li><a class="dropdown-item" href="#">Romance</a></li>
-                <li><a class="dropdown-item" href="#">Thriller</a></li>
-              </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="signup.html">Join Us</a>
-            </li>
-          </ul>
+        <div class="container-fluid">
+            <a class="navbar-brand mx-auto" href="#">
+                <img src="./assets/images/book-club-logo-header.png" alt="Bootstrap" class="img-fluid" />
+            </a>
+    
+            <a class="navbar-brand mx-0" href="index.html">Bridgend Book Club</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                <ul class="navbar-nav mx-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active bbc-fw" href="about.html">About</a>
+                    </li>
+    
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="bookclubs.html" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Book Clubs
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a class="dropdown-item border-bottom py-2" href="bookclubs.html">View All</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="./fiction.html">Fiction</a>
+                            </li>
+                            <li><a class="dropdown-item" href="#">Non-Fiction</a></li>
+                            <li><a class="dropdown-item" href="#">Science-Fiction</a></li>
+                            <li><a class="dropdown-item" href="#">Romance</a></li>
+                            <li><a class="dropdown-item" href="#">Thriller</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="signup.html">Join Us</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-      </div>
     </nav>
-    <header class="container-md">
-      <h1 class="text-center bbc-font bbc-fw">About Us</h1>
+    <header class="container-md bbc-font ">
+      <h1 class="text-center bbc-fw">About Us</h1>
       <p class="lead text-center">
         Welcome to our book club committee! We are a group of passionate readers
         who have come together to organize and manage our book club activities.
         Our committee is dedicated to creating a vibrant and inclusive community
         for book lovers of all ages.
       </p>
+      <p class="lead text-center">
+        If you wish to contact us
+        <a href="mailto:committee@example.com">please email</a>
+      </p>
     </header>
-    <main class="container-md">
+    <main class="container-md bbc-font">
       <div class="card mb-3">
         <div class="row g-0">
-          <div class="col-md-4">
+          <div class="d-flex col-md-2 p-2 align-items-center">
             <img
               src="./assets/images/about-us/chair.jpg"
-              class="img-fluid rounded-start"
+              class="img-fluid img-thumbnail"
               alt="Book Club Chair"
             />
           </div>
-          <div class="col-md-8">
+          <div class="col-md-10">
             <div class="card-body">
               <h4 class="card-title"><strong>Chair</strong></h4>
               <h5 class="c-name">Penelope Foster</h5>
@@ -120,7 +102,7 @@
                 meetings, and fostering a positive and inclusive environment for
                 all members.
               </p>
-              <p class="card-text">
+              <p class="card-text my-0">
                 <small class="text-body-secondary">
                   <strong>Favourite Book:</strong>"The Great Gatsby" by F. Scott
                   Fitzgerald
@@ -141,14 +123,14 @@
       </div>
       <div class="card mb-3">
         <div class="row g-0">
-          <div class="col-md-4">
+           <div class="d-flex col-md-2 p-2 align-items-center">
             <img
               src="./assets/images/about-us/vice-chair.jpg"
-              class="img-fluid rounded-start"
+              class="img-fluid img-thumbnail"
               alt="Book Club Vice Chair"
             />
           </div>
-          <div class="col-md-8">
+          <div class="col-md-10">
             <div class="card-body">
               <h4 class="card-title"><strong>Vice Chair</strong></h4>
               <h5 class="c-name">James Cousins</h5>
@@ -158,7 +140,7 @@
                 continuity within the committee. I actively contribute to
                 decision-making processes and help organize club events.
               </p>
-              <p class="card-text">
+              <p class="card-text my-0">
                 <small class="text-body-secondary">
                   <strong>Favourite Book:</strong>
                   "To Kill a Mockingbird" by Harper Lee
@@ -180,14 +162,14 @@
       </div>
       <div class="card mb-3">
         <div class="row g-0">
-          <div class="col-md-4">
+           <div class="d-flex col-md-2 p-2 align-items-center">
             <img
               src="./assets/images/about-us/treasurer.jpg"
-              class="img-fluid rounded-start"
+              class="img-fluid img-thumbnail"
               alt="Book Club Treasurer"
             />
           </div>
-          <div class="col-md-8">
+          <div class="col-md-10">
             <div class="card-body">
               <h4 class="card-title"><strong>Treasurer</strong></h4>
               <h5 class="c-name">Nicola Mann</h5>
@@ -198,7 +180,7 @@
                 are well-managed and transparent, allowing us to organize
                 events.
               </p>
-              <p class="card-text">
+              <p class="card-text my-0">
                 <small class="text-body-secondary">
                   <strong>Favourite Book:</strong> "Pride and Prejudice" by Jane
                   Austen
@@ -221,14 +203,14 @@
       </div>
       <div class="card mb-3">
         <div class="row g-0">
-          <div class="col-md-4">
+           <div class="d-flex col-md-2 p-2 align-items-center">
             <img
               src="./assets/images/about-us/secretary.jpg"
-              class="img-fluid rounded-start"
+              class="img-fluid img-thumbnail"
               alt="Book Club Secretary"
             />
           </div>
-          <div class="col-md-8">
+          <div class="col-md-10">
             <div class="card-body">
               <h4 class="card-title"><strong>Secretary</strong></h4>
               <h5 class="c-name">Isabelle Young</h5>
@@ -240,7 +222,7 @@
                 in a timely manner. I also assists with administrative tasks as
                 needed.
               </p>
-              <p class="card-text">
+              <p class="card-text my-0">
                 <small class="text-body-secondary"
                   ><strong>Favourite Book:</strong> "1984" - by George Orwell
                 </small>
