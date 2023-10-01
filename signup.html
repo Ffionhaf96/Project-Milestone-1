@@ -25,12 +25,11 @@
   <body class="main-bg">
     <nav class="row navbar navbar-expand-lg bbc-font g-0">
       <div class="container-fluid">
-        <a class="navbar-brand mx-0" href="#">
+        <a class="navbar-brand mx-auto" href="#">
           <img
-            src="./assets/images/bridgend-book-club-logo.png"
+            src="./assets/images/book-club-logo-header.png"
             alt="Bootstrap"
-            width="90"
-            height="90"
+            class="img-fluid"
           />
         </a>
 
@@ -76,7 +75,11 @@
                     >View All</a
                   >
                 </li>
-                <li><a class="dropdown-item" href="#">Fiction</a></li>
+                <li>
+                  <a class="dropdown-item active" href="./fiction.html"
+                    >Fiction</a
+                  >
+                </li>
                 <li><a class="dropdown-item" href="#">Non-Fiction</a></li>
                 <li><a class="dropdown-item" href="#">Science-Fiction</a></li>
                 <li><a class="dropdown-item" href="#">Romance</a></li>
@@ -84,109 +87,116 @@
               </ul>
             </li>
             <li class="nav-item">
-              <a class="nav-link active bbc-fw" href="signup.html">Join Us</a>
+              <a class="nav-link" href="signup.html">Join Us</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
-
-    <form
-      action="thankyou.html"
-      method="get"
-      class="row border col-sm-6 p-3 offset-sm-3 justify-content-center align-content-center body-height-75"
-    >
-      <h1 class="py-3 text-center bbc-font bbc-fw">Join Us</h1>
-      <p class="text-center">
-        Our goal is to create a fun and engaging environment where members can
-        connect with each other, discover new books, and share their love for
-        reading. We believe that reading is not just a hobby but a way of life,
-        and we want to inspire others to read more and explore new genres. If
-        you're interested in joining our book club, please fill out the Join Us'
-        form on our website. We look forward to hearing from you!
-      </p>
-      <div class="mb-3 mt-5">
-        <label for="name" class="form-label bbc-fw">Full name</label>
-        <input
-          type="text"
-          class="form-control"
-          id="name"
-          placeholder="Emily Bronte"
-          aria-label="Your full name"
-          required
-        />
-      </div>
-      <div class="my-3">
-        <label for="email" class="form-label bbc-fw">Email address</label>
-        <input
-          type="email"
-          class="form-control"
-          id="email"
-          name="email"
-          placeholder="email@example.com"
-          aria-label="Your email address"
-          aria-describedby="emailHelp"
-          required
-        />
-        <div id="emailHelp" class="form-text">
-          We'll never share your email with anyone else.
+    <main class="body-height-85">
+      <form
+        action="thankyou.html"
+        method="get"
+        class="row border col-sm-6 p-3 offset-sm-3 justify-content-center align-content-center"
+      >
+        <h1 class="py-3 text-center bbc-font bbc-fw">Join Us</h1>
+        <p class="text-center">
+          Our goal is to create a fun and engaging environment where members can
+          connect with each other, discover new books, and share their love for
+          reading. We believe that reading is not just a hobby but a way of
+          life, and we want to inspire others to read more and explore new
+          genres. If you're interested in joining our book club, please fill out
+          the Join Us' form on our website. We look forward to hearing from you!
+        </p>
+        <div class="mb-3 mt-5">
+          <label for="name" class="form-label bbc-fw">Full name</label>
+          <input
+            type="text"
+            class="form-control"
+            id="name"
+            placeholder="Emily Bronte"
+            aria-label="Your full name"
+            required
+          />
         </div>
-      </div>
-      <p class="my-3 bbc-fw">Select which book clubs you wish to join!</p>
-      <div class="mb-3 form-check">
-        <input
-          type="checkbox"
-          class="form-check-input"
-          id="fiction"
-          name="bcselection"
-        />
-        <label for="fiction" class="form-check-label">Fiction</label>
-      </div>
+        <div class="my-3">
+          <label for="email" class="form-label bbc-fw">Email address</label>
+          <input
+            type="email"
+            class="form-control"
+            id="email"
+            name="email"
+            placeholder="email@example.com"
+            aria-label="Your email address"
+            aria-describedby="emailHelp"
+            required
+          />
+          <div id="emailHelp" class="form-text">
+            We'll never share your email with anyone else.
+          </div>
+        </div>
 
-      <div class="mb-3 form-check">
-        <input
-          type="checkbox"
-          class="form-check-input"
-          id="nonFiction"
-          name="bcselection"
-        />
-        <label for="nonFiction" class="form-check-label">Non-Fiction</label>
-      </div>
+        <fieldset class="my-3">
+          <legend class="bbc-fw">
+            Select which book clubs you wish to join!
+          </legend>
 
-      <div class="mb-3 form-check">
-        <input
-          type="checkbox"
-          class="form-check-input"
-          id="scienceFiction"
-          name="bcselection"
-        />
-        <label for="scienceFiction" class="form-check-label"
-          >Science-Fiction</label
-        >
-      </div>
+          <div class="mb-3 form-check">
+            <input
+              type="checkbox"
+              class="form-check-input"
+              id="fiction"
+              name="bcselection"
+            />
+            <label for="fiction" class="form-check-label">Fiction</label>
+          </div>
 
-      <div class="mb-3 form-check">
-        <input
-          type="checkbox"
-          class="form-check-input"
-          id="romance"
-          name="bcselection"
-        />
-        <label for="romance" class="form-check-label">Romance</label>
-      </div>
+          <div class="mb-3 form-check">
+            <input
+              type="checkbox"
+              class="form-check-input"
+              id="nonFiction"
+              name="bcselection"
+            />
+            <label for="nonFiction" class="form-check-label">Non-Fiction</label>
+          </div>
 
-      <div class="mb-3 form-check">
-        <input
-          type="checkbox"
-          class="form-check-input"
-          id="thriller"
-          name="bcselection"
-        />
-        <label for="thriller" class="form-check-label">Thriller</label>
-      </div>
+          <div class="mb-3 form-check">
+            <input
+              type="checkbox"
+              class="form-check-input"
+              id="scienceFiction"
+              name="bcselection"
+            />
+            <label for="scienceFiction" class="form-check-label"
+              >Science-Fiction</label
+            >
+          </div>
 
-      <button type="submit" class="btn btn-outline-dark">Join!</button>
-    </form>
+          <div class="mb-3 form-check">
+            <input
+              type="checkbox"
+              class="form-check-input"
+              id="romance"
+              name="bcselection"
+            />
+            <label for="romance" class="form-check-label">Romance</label>
+          </div>
+
+          <div class="mb-3 form-check">
+            <input
+              type="checkbox"
+              class="form-check-input"
+              id="thriller"
+              name="bcselection"
+            />
+            <label for="thriller" class="form-check-label">Thriller</label>
+          </div>
+        </fieldset>
+
+        <button type="submit" class="btn btn-outline-dark">Join!</button>
+      </form>
+    </main>
     <footer class="container-fluid border-top mt-4 bbc-font bbc-fw">
       <div class="row">
         <div class="col">
