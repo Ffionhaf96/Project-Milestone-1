@@ -22,16 +22,14 @@
     <link href="./assets/css/style.css" rel="stylesheet" />
     <title>Bridgend Local Book Library - Home</title>
   </head>
-
   <body class="main-bg">
     <nav class="row navbar navbar-expand-lg bbc-font g-0">
       <div class="container-fluid">
-        <a class="navbar-brand mx-0" href="#">
+        <a class="navbar-brand mx-auto" href="#">
           <img
-            src="./assets/images/bridgend-book-club-logo.png"
+            src="./assets/images/book-club-logo-header.png"
             alt="Bootstrap"
-            width="90"
-            height="90"
+            class="img-fluid"
           />
         </a>
 
@@ -56,12 +54,12 @@
               <a class="nav-link" aria-current="page" href="index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="about.html">About</a>
+              <a class="nav-link active bbc-fw" href="about.html">About</a>
             </li>
 
             <li class="nav-item dropdown">
               <a
-                class="nav-link active bbc-fw dropdown-toggle"
+                class="nav-link dropdown-toggle"
                 href="bookclubs.html"
                 role="button"
                 data-bs-toggle="dropdown"
@@ -77,7 +75,9 @@
                     >View All</a
                   >
                 </li>
-                <li><a class="dropdown-item" href="#">Fiction</a></li>
+                <li>
+                  <a class="dropdown-item" href="./fiction.html">Fiction</a>
+                </li>
                 <li><a class="dropdown-item" href="#">Non-Fiction</a></li>
                 <li><a class="dropdown-item" href="#">Science-Fiction</a></li>
                 <li><a class="dropdown-item" href="#">Romance</a></li>
@@ -94,14 +94,14 @@
     <main class="container-md">
       <div class="card mb-3">
         <div class="row g-0">
-          <div class="col-md-2">
+          <div class="d-flex col-md-2 p-2 align-items-center">
             <img
               src="./assets/images/book-clubs/fiction-book.jpg"
-              class="img-fluid rounded-start"
+              class="img-fluid img-thumbnail"
               alt="Fiction Book of the Month"
             />
           </div>
-          <div class="col-md-8">
+          <div class="col-md-10">
             <div class="card-body">
               <h4 class="card-title"><strong>Fiction Book Club</strong></h4>
               <h5 class="b-name">In Memoriam</h5>
@@ -120,7 +120,7 @@
               </p>
               <p class="card-text">
                 <a href="fiction.html">
-                  <button type="submit" class="btn btn-outline-dark">
+                  <button type="button" class="btn btn-outline-dark">
                     Fiction Book Club!
                   </button>
                 </a>
@@ -131,17 +131,15 @@
       </div>
       <div class="card mb-3">
         <div class="row g-0">
-          <div class="col-md-4">
-            <img
-              src="./assets/images/book-clubs/non-fiction.jpg"
-              class="img-fluid rounded-start"
-              alt="Fiction Book of the Month"
+          <div class="d-flex col-md-2 p-2 align-items-center">
+            <img src="./assets/images/book-clubs/non-fiction.jpg"
+            class="img-fluid img-thumbnail alt="Non-Fiction Book of the Month"
             />
           </div>
-          <div class="col-md-8">
+          <div class="col-md-10">
             <div class="card-body">
               <h4 class="card-title"><strong>Non-Fiction Book Club</strong></h4>
-              <h5 class="b-name">Agatha Christie</h5>
+              <h5 class="b-name">Agatha Christies</h5>
               <h6>by Lucy Worsley</h6>
               <p class="card-text">
                 A superlative biography of the Queen of Crime from one of our
@@ -154,6 +152,109 @@
                 <a href="non-fiction.html">
                   <button type="submit" class="btn btn-outline-dark">
                     Non-Fiction Book Club!
+                  </button>
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card mb-3">
+        <div class="row g-0">
+          <div class="d-flex col-md-2 p-2 align-items-center">
+            <img
+              src="./assets/images/book-clubs/science-fiction.jpg"
+              class="img-fluid img-thumbnail"
+              alt="Science-Fiction Book of the Month"
+            />
+          </div>
+          <div class="col-md-10">
+            <div class="card-body">
+              <h4 class="card-title">
+                <strong>Science-Fiction Book Club</strong>
+              </h4>
+              <h5 class="b-name">Creation Node</h5>
+              <h6>by Stephen Baxter</h6>
+              <p class="card-text">
+                Baxter's latest novel, Creation Node, is a science fiction novel
+                set in the year 2255. The novel follows the discovery of an
+                object called Planet Nine, which turns out to be something not
+                quite human. The novel is a taut, mesmerizing novel of danger
+                and obsession that will keep you on the edge of your seat.
+              </p>
+              <p class="card-text">
+                <a href="fiction.html">
+                  <button type="button" class="btn btn-outline-dark">
+                    Science-Fiction Book Club!
+                  </button>
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card mb-3">
+        <div class="row g-0">
+          <div class="d-flex col-md-2 p-2 align-items-center">
+            <img
+              src="./assets/images/book-clubs/romance.jpg"
+              class="img-fluid img-thumbnail"
+              alt="Romance Book of the Month"
+            />
+          </div>
+          <div class="col-md-10">
+            <div class="card-body">
+              <h4 class="card-title"><strong>Romance Book Club</strong></h4>
+              <h5 class="b-name"></h5>
+              <h6>by Lucy Worsley</h6>
+              <p class="card-text">
+                Goldbeck's debut novel, *You, Again*, is a clever
+                enemies-to-friends-to-lovers debut romance that explores the
+                dynamics of co-ed friendship in this sparkling romantic comedy
+                of modern love in all its forms ⁴⁵⁶⁷. The novel follows the
+                story of Ari and Josh who first meet when they are sleeping with
+                the same woman. They hate each other instantly. A free-spirited,
+                struggling comedian who likes to keep things casual, Ari
+                sublets, takes gigs, and never sleeps over after hooking up.
+              </p>
+              <p class="card-text">
+                <a href="non-fiction.html">
+                  <button type="submit" class="btn btn-outline-dark">
+                    Romance Book Club!
+                  </button>
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card mb-3">
+        <div class="row g-0">
+          <div class="d-flex col-md-2 p-2 align-items-center">
+            <img
+              src="./assets/images/book-clubs/thriller.jpg"
+              class="img-fluid img-thumbnail"
+              alt="Thriller Book of the Month"
+            />
+          </div>
+          <div class="col-md-10">
+            <div class="card-body">
+              <h4 class="card-title"><strong>Thriller Book Club</strong></h4>
+              <h5 class="b-name">The Skeleton Key</h5>
+              <h6>by Erin Kelly</h6>
+              <p class="card-text">
+                Kelly's latest novel, The Skeleton Key, is a gripping
+                psychological thriller that explores the dark secrets of two
+                families tied together by history and marriage. The novel is
+                inspired by the author's love for Masquerade and features a
+                literal golden key and a literal human skeleton. It is a taut,
+                mesmerizing novel of danger and obsession that will keep you on
+                the edge of your seat.
+              </p>
+              <p class="card-text">
+                <a href="thriller.html">
+                  <button type="button" class="btn btn-outline-dark">
+                    Thriller Book Club!
                   </button>
                 </a>
               </p>
