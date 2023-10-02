@@ -155,7 +155,16 @@
           <legend class="bbc-fw">
             Select which book clubs you wish to join!
           </legend>
-
+          <div class="mb-3 form-check">
+            <input
+              type="checkbox"
+              class="form-check-input"
+              id="all"
+              name="bcselection"
+              checked
+            />
+            <label for="all" class="form-check-label">All</label>
+          </div>
           <div class="mb-3 form-check">
             <input
               type="checkbox"
@@ -165,7 +174,6 @@
             />
             <label for="fiction" class="form-check-label">Fiction</label>
           </div>
-
           <div class="mb-3 form-check">
             <input
               type="checkbox"
@@ -175,7 +183,6 @@
             />
             <label for="nonFiction" class="form-check-label">Non-Fiction</label>
           </div>
-
           <div class="mb-3 form-check">
             <input
               type="checkbox"
@@ -187,7 +194,6 @@
               >Science-Fiction</label
             >
           </div>
-
           <div class="mb-3 form-check">
             <input
               type="checkbox"
@@ -197,7 +203,6 @@
             />
             <label for="romance" class="form-check-label">Romance</label>
           </div>
-
           <div class="mb-3 form-check">
             <input
               type="checkbox"
@@ -208,7 +213,6 @@
             <label for="thriller" class="form-check-label">Thriller</label>
           </div>
         </fieldset>
-
         <button type="submit" class="btn btn-outline-dark">Join!</button>
       </form>
     </main>
