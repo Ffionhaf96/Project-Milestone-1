@@ -3,6 +3,17 @@
     background-color: #fbf9f6;
 }
 
+body {
+    /* These flex based properties help with the navbar staying 'sticky' */
+    display:flex;
+    flex-direction: column;
+    min-height: 100vh
+}
+
+main {
+    flex-grow: 1;
+}
+
 /* Font Styling */
 .bbc-font {
     font-family: 'Merriweather', serif;
@@ -28,7 +39,8 @@
 
 /* Footer */
 footer {
-    max-height: 100px;
+    flex-shrink: 0;
+    height: 100px;
 }
 
 @media screen and (min-width: 1024px) {}
