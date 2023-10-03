@@ -31,7 +31,7 @@ main {
 
 .hero {
     height: 35vh;
-    background-image: linear-gradient(rgba(112, 225, 245, 0.4), rgba(251, 249, 246, 0.8)), url(../images/hero.jpeg);
+    background-image: linear-gradient(rgba(112, 225, 245, 0.4), rgba(251, 249, 246, 0.8)), url(../images/hero.webp);
     background-size: cover;
     background-position: center;
 }
