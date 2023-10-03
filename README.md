@@ -80,9 +80,10 @@ I wanted to ensure that the webaite was easy to use, responsive, accessible and 
 ### Project Goals
 
 #### **Project Purpose**
+
 The purpose of this project is to create a website for the *Bridgend Book Club*. The website will serve as a platform for members to find clubs tailored to their reading interest, as well as to discover upcoming events and meetings. The website will also provide information about the club, including its history, membership details and contact information.
 
-The website will be designed to be user-friendly and accessible to all members of the club. It will be easy to navigate, with clear sections for different types of content. 
+The website will be designed to be user-friendly and accessible to all members of the club. It will be easy to navigate, with clear sections for different types of content.
 
 Since all meetings and discussions are held in person, the website will not include any virtual meeting features. Instead, it will focus on providing information about upcoming events and meetings.
 
@@ -283,12 +284,15 @@ When clicking the "Join!" button it was only refreshing to the form page again. 
 Using [mdn web docs](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form) I found that form has an `action` attribute that can set the URL to process a form submission.
 
 ### Bug: Hero image header h1 opacity
-When setting a filter to make the hero image more opaque using `filter: opacity(0.3)` it was altering the appearance of the `h1` also which made it unreadable. 
-*fix*: 
+
+When setting a filter to make the hero image more opaque using `filter: opacity(0.3)` it was altering the appearance of the `h1` also which made it unreadable.
+*fix*: Adapting code found on a blog from LogRocket about [image overlays](https://blog.logrocket.com/guide-image-overlays-css/#using-linear-gradient-css-function) using the linear gradient method.
 
 ### Bug: Card group images not aligning
-When changing the images and titles to the respective book genres they became misaligned to each other.
-*fix* 
+
+When changing the images and titles to the respective book genres they became ![misaligned to each other](./assets/images/bugs/cards-not-aligning-consistent.png).
+
+*fix* : Making use of Boostraps `row` and `row col` classes [found used here for grid cards](https://getbootstrap.com/docs/5.3/components/card/#grid-cards).
 
 ### HTML Validation
 <!-- Insert info here-->
@@ -315,6 +319,8 @@ When changing the images and titles to the respective book genres they became mi
 <!-- Insert info here-->
 
 ## Credits
+
+*note*: Credit and references for bug fixes and relating issues has been given in the sub-section "Testing & Bugs".
 
 ### Code
 
