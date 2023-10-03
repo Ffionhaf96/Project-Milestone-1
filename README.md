@@ -294,6 +294,12 @@ When changing the images and titles to the respective book genres they became ![
 
 *fix* : Making use of Boostraps `row` and `row col` classes [found used here for grid cards](https://getbootstrap.com/docs/5.3/components/card/#grid-cards).
 
+### Bug: Footer too large when page contains minimal content
+
+When viewing a page that contained minimal content within the main section the footer would rise far up the page giving the appearance of an ![exceptionally tall footer.](./assets/images/bugs/).
+
+*fix* : Making use of `flexbox` to create a sticky footer. Code was adapted from  [Philip Walton's Sticky Footer demo](https://philipwalton.github.io/solved-by-flexbox/demos/sticky-footer/).
+
 ### HTML Validation
 <!-- Insert info here-->
 
