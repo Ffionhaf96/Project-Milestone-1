@@ -1,10 +1,10 @@
 # Bridgend Book Club Website
 
-![Bridgend Book Club Website Mock-up] () <!--INSERT MOCK UP IMAGES AT THE END -->
+![Bridgend Book Club Website Mock-up] (assets/images/readme/mockup.webp)
 
 #### **By Ffion Haf Edwards**
 
-[Click here to view the live web application] () <!--INSERT LINK ONCE SITE IS DEPLOYED -->
+[Click here to view the live web application] (assets/images/readme/mockup.webp) 
 
 #### **BRIDGEND BOOK CLUB**
 
@@ -155,13 +155,13 @@ These key takeaways illustrate the dynamic and evolving nature of the book club 
 
 #### **Discovering New Books**
 
-As a book club member user I want to easily discover new books and reading recommendations on the website so that I can expand my reading horizons and contribute to club discussions (online and offline).
+As a book club member user I want to easily discover new books and reading recommendations on the website so that I can expand my reading horizons and contribute to club discussions.
 
 Acceptance Criteria:
 
-- I should be able to browse a curated list of recommended books on the homepage.
+- User should be able to browse a curated list of recommended books on the homepage.
 - Each book recommendation should include a title, cover image, and a brief summary.
-- I should have the option to click on a book to see more details, including event details of the next book club meeting.
+- User should have the option to click on a book to see more details, including event details of the next book club meeting.
 
 #### **Exploring Club Information:**
 
