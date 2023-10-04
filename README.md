@@ -188,7 +188,7 @@ Acceptance Criteria:
 
 ### Design, Layout & Structure
 
-<!-- Insert info here-->
+I chose to design a minimalist book club website, where the digital realm seamlessly marries the timeless charm of a paper book. At the heart of my design philosophy lies the desire to create an online space that evokes the sensory delight and simplicity of holding a well-loved book in your hands. Here's an overview of my design, layout, and structural principles:
 
 #### **Wireframes**
 <!-- Insert links here for HOME/ ABOUT/ BOOK CLUB/ JOIN US wireframes-->
@@ -198,7 +198,16 @@ Acceptance Criteria:
 <!-- Insert structure info here-->
 
 #### **Colour**
-<!-- Insert info here-->
+
+Soft, muted colors evoke the warmth of reading by a lamplight. We've chosen a palette that soothes the eyes and enhances content readability.
+
+![colour pallete](assets/images/readme/colour-scheme-.webp)
+
+- *#fbf9f6* The subtle, parchment-like background texture subtly mirrors the tactile sensation of a physical book. It's a gentle reminder of the comforting weight of literature.
+
+- *#000000* I chose the color black for the book club text to evoke a sense of elegance and timelessness, reminiscent of the classic ink on the pages of a well-loved book.
+  
+- *#ffffff* Like the margins of a book page, whitespace surrounds the content, offering a serene reading experience. It allows your eyes to rest, emphasizing the beauty of both text and images.
 
 #### **Fonts**
 <!-- Insert info here-->
