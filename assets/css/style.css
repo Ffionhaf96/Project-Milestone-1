@@ -5,7 +5,7 @@
 
 body {
     /* These flex based properties help with the navbar staying 'sticky' */
-    display:flex;
+    display: flex;
     flex-direction: column;
     min-height: 100vh
 }
@@ -43,4 +43,16 @@ footer {
     height: 100px;
 }
 
-@media screen and (min-width: 1024px) {}
+
+/* Mobile first media-query */
+@media screen and (min-width: 768px) {
+    .nav-link:hover,
+    .navbar-brand:hover {
+        color: rgba(0, 0, 0, 0.3)
+    }
+
+    footer {
+        font-size: 150%;
+    }
+
+}
