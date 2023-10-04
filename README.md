@@ -433,10 +433,50 @@ When viewing a page that contained minimal content within the main section the f
 *fix* : Making use of `flexbox` to create a sticky footer. Code was adapted from  [Philip Walton's Sticky Footer demo](https://philipwalton.github.io/solved-by-flexbox/demos/sticky-footer/).
 
 ### HTML Validation
-<!-- Insert info here-->
+<details><summary>Home</summary>
+<img src="assets/images/readme/index-html-validation-before.webp">
+</details>
+<details><summary>About Us</summary>
+<img src="assets/images/readme/about-html-validation-651d95f65c42e.webp">
+</details>
+<details><summary>Book Clubs</summary>
+<img src="assets/images/readme/book-clubs-html-validation-before.webp">
+</details>
+<details><summary>Individual Book Club Pages</summary>
+<img src="assets/images/readme/fiction-html-validation.webp">
+<img src="assets/images/readme/non-fiction-html-validation.webp">
+<img src="assets/images/readme/science-fiction-html-validation.webp">
+<img src="assets/images/readme/romance-html-validation-.webp">
+<img src="assets/images/readme/thriller-html-validation.webp">
+</details>
+<details><summary>Join Us</summary>
+<img src="assets/images/readme/sign-up-html-validation-651d9601d8eea.webp">
+</details>
+<details><summary>Thankyou</summary>
+<img src="assets/images/readme/thank-you-html-validation-651d960034445.webp">
+</details>
+<details><summary>404</summary>
+<img src="assets/images/readme/404-html-validation-651d95f369463.webp">
+</details>
+
+#### **Results**
+
+2 of the pages contained errors; 'Home' and 'Book Clubs'.
+
+#### **HTML Validation After Fixes**
+
+<details><summary>Home</summary>
+<img src="assets/images/readme/index-html-validation-before.webp">
+</details>
+<details><summary>Book Clubs</summary>
+<img src="assets/images/readme/book-clubs-html-validation.webp">
+</details>
 
 ### CSS Validation
-<!-- Insert info here-->
+<details><summary>CSS Validation Results</summary>
+<img src="assets/images/readme/css-validation.webp">
+</details>
+I ran the CSS code through the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input). No errors were found.
 
 ### Accessibility
 <details><summary>Screenshot</summary>
