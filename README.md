@@ -281,7 +281,7 @@ I imported [Google Fonts](https://fonts.google.com/) and used [Merriweather](htt
 
 *Navbar - desktop*
 
-<img src="">
+<img src="assets/images/readme/nav-bar-hover-drop-down.webp">
 
 *Navbar - hover effect and drop down*
 
@@ -296,6 +296,7 @@ I imported [Google Fonts](https://fonts.google.com/) and used [Merriweather](htt
 - Fully responsive.
 - The page the user is presently on is highlighted.
 - Hover effect on nav links.
+- Drop down button for indiviual book clubs.
 
 #### **Hero**
 
@@ -360,24 +361,74 @@ I imported [Google Fonts](https://fonts.google.com/) and used [Merriweather](htt
 ### Home Page
 
 #### **Bio & Join Us Button**
-<!-- Insert info here-->
+<details><summary>Screenshot</summary>
+
+<img src="assets/images/readme/home-page.webp">
+
+*Home page*
+
+</details>
+
+- The 'Home' page describes the book club's ethos and membership guidelinesin the intro text.
+- User's are guided to a call to action 'join us' button beneath the intro text.
+- User's are then directed to cards which include a book cover of the 'book of the month' for each book club (fiction, non-fiction etc). Each card has a 'view' button which directs user's to the individual book club of their choice. This button gives the user another navigation route through the site, an alternative to navigating using the navbar.
 
 ### About Us
 
 #### **About Us Sections**
-<!-- Insert info here-->
 
-#### **Call To Action**
-<!-- Insert info here-->
+<details><summary>Screenshot</summary>
+
+<img src="assets/images/readme/about-page.webp">
+
+*About page*
+
+</details>
+
+- About us intro text including an enquiry link for users to contact the committee.
+- Stack of cards that introduce the committee members including image, position, chair, treasurer and secretary.
+- The key benefit of having an "About Us" page on included on the book club website is that it helps build trust and credibility with users. When users can learn about the people behind a website, it humanizes the online presence and makes it more relatable. This transparency can instill confidence in users, making them more likely to engage with the content and services offered by the book club's website.
 
 ### Book Club
 
-#### **Book Club Options**
-<!-- Insert info here regarding the different bookclubs available ie fiction-->
+#### **Book Clubs**
+
+<details><summary>Screenshot</summary>
+
+<img src="assets/images/readme/book-clubs-page.webp">
+
+*Book Clubs page*
+
+</details>
+
+- Users presented with an intro to the book clubs including membership info (fees and meeting frequencies).
+- Users are then presented with a snippet of the book clubs available to them including genre, an image of the book cover, book title, book author, book summary and a button that leads them to furhter information regarding their book club of choice.
+
+#### **Individual Book Clubs: Example Fiction**
+
+<details><summary>Screenshot</summary>
+
+<img src="assets/images/readme/individual-book-club-fiction.webp">
+
+*Individual Book Club Page: Example Fiction*
+
+</details>
+
+- User presentad with an book club page for each of the following genres: Fiction, Non-Fiction, Sci-Fiction, Romance and Thriller.
+- This page provides users with information on the 'book of the month', the author of the book and details regarding the next in person meeting including date and google maps location.
+
 ### Join Us
 
 #### **Join Us Info & Form**
-<!-- Insert info here-->
+<details><summary>Screenshot</summary>
+
+<img src="assets/images/readme/join-us-page.webp">
+
+*Join Us page*
+
+</details>
+
+A 'Join Us' page was added to allow users to sign up to the book clubs that peaked their interest. The join us page has the 'all' button toggled as default when identifying what clubs users would like to join. All form elements are required to be filled in. On submission, users are redirected to a 'thank you' pge.
 
 ### Other Pages
 
@@ -388,6 +439,8 @@ I imported [Google Fonts](https://fonts.google.com/) and used [Merriweather](htt
 <img src="assets/images/readme/thank-you-page.webp">
 
 *Thank You page*
+
+</details>
 
 A simple thank you page was added to appear when a user submits a form.
 
