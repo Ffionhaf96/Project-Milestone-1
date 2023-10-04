@@ -216,7 +216,7 @@ Additional navigation options include a preferred path through the website via s
 
 #### **Colour**
 
- I chose a palette that soothes the eyes and enhances content readability by utilising a soft and muted colour palette. 
+ I chose a palette that soothes the eyes and enhances content readability by utilising a soft and muted colour palette.
 
 ![colour pallete](assets/images/readme/colour-scheme-.webp)
 
@@ -227,11 +227,13 @@ Additional navigation options include a preferred path through the website via s
 - *#ffffff* Like the margins of a book page, whitespace surrounds the content, offering a serene reading experience. It allows your eyes to rest, emphasizing the beauty of both text and images.
 
 #### **Fonts**
-I imported [Google Fonts](https://fonts.google.com/) and used [Merriweather](https://fonts.google.com/specimen/Merriweather) (with a fallback of Sans Serif) for the main body text. Typography is the soul of a book, and I carefully selected classic, readable fonts that transport you to the comforting pages of a novel. 
+
+I imported [Google Fonts](https://fonts.google.com/) and used [Merriweather](https://fonts.google.com/specimen/Merriweather) (with a fallback of Sans Serif) for the main body text. Typography is the soul of a book, and I carefully selected classic, readable fonts that transport you to the comforting pages of a novel.
 
 ## Technologies Used
 
 ### Languages
+
 - HTML
   - The structure of the book club website was developed using HTML as the main language.
 - CSS
