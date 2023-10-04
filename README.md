@@ -1,10 +1,10 @@
 # Bridgend Book Club Website
 
-![Bridgend Book Club Website Mock-up] (assets/images/readme/mockup.webp)
+![Bridgend Book Club Website Mock-up](assets/images/readme/mockup.webp)
 
 #### **By Ffion Haf Edwards**
 
-[Click here to view the live web application] (assets/images/readme/mockup.webp)
+[Click here to view the live web application] (<https://ffionhaf96.github.io/Project-Milestone-1/>)
 
 #### **BRIDGEND BOOK CLUB**
 
