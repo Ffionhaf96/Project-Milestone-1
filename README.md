@@ -205,8 +205,6 @@ The site has a simple structure made up of 4 main pages:
   - A thank you page for when a user had submitted a form.
   - a 404 page for when a user lands on a non-existint page.
 
-<!--On desktop and tablet, the site's navigation bar is fixed at the top of the screen; on mobile, it scrolls with the rest of the page because it takes up too much screen real estate and detracts from the user experience. This feature makes it easy for users to access any page they need at any time and is best suited for repeat visitors who are familiar with the site's layout. Each page also has a footer with connections to the book club's social media pages.-->
-
 Additional navigation options include a preferred path through the website via suggested links that would lead a new visitor through the information. This is designed for people who wish to find out more about the individual book clubs. Suggested route: HOME> VIEW (Book Clubs)
 
 [Home Page - Individual Book Club View Button](assets/images/readme/structure-screenshot-view.webp)
@@ -384,7 +382,16 @@ I imported [Google Fonts](https://fonts.google.com/) and used [Merriweather](htt
 ### Other Pages
 
 #### **Thankyou Page**
-<!-- Insert info here-->
+
+<details><summary>Screenshot</summary>
+
+<img src="assets/images/readme/thank-you-page.webp">
+
+*Thank You page*
+
+A simple thank you page was added to appear when a user submits a form.
+
+The benefit of having a "Thank You" page after completing a "Join Us" form on the book club website is to provide a positive and reassuring user experience by reassuring users that their form was sent correctly snd facilitating further engagement by having all nav links to other pages included on this page.
 
 #### **404 Page**
 
@@ -399,8 +406,6 @@ I imported [Google Fonts](https://fonts.google.com/) and used [Merriweather](htt
 A custom 404 page was added to enhance user experience by providing a helpful error messages and navigation options, ensuring that visitors can easily find their way around the website even when encountering broken links or missing content.
 
 ### Future Features
-<!-- Insert info here-->
-
 The following user goals were removed from the README due to knowledge limitations. The following future features would be introduced to address the unmet identified user goals.
 
 - **Personalised Reading Lists:** Utilize JavaScript and Python to allow users to create personalize reading lists based on their activity on the site (i.e based on the bookclubs the user has signed up to);
