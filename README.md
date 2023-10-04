@@ -4,7 +4,7 @@
 
 #### **By Ffion Haf Edwards**
 
-[Click here to view the live web application] (assets/images/readme/mockup.webp) 
+[Click here to view the live web application] (assets/images/readme/mockup.webp)
 
 #### **BRIDGEND BOOK CLUB**
 
@@ -181,10 +181,7 @@ As a book club member I want to stay informed about upcoming book club events, s
 
 Acceptance Criteria:
 
-- When I go on the website, I should see a "Club Events" section on the homepage or main navigation menu.
-- The "Club Events" section should display a calendar or list of upcoming events, including details such as date, time, location (if in-person), and the book to be discussed.
-- The website should provide options for filtering events based on date, genre, or format (in-person or online).
-- For online events, there should be a clear link or integration with the virtual meeting platform (e.g., Zoom or Google Meet).
+- User to be presented with event information when on individual book club page.
 
 ### Design, Layout & Structure
 
@@ -279,6 +276,7 @@ I imported [Google Fonts](https://fonts.google.com/) and used [Merriweather](htt
 ### Whole Site
 
 #### **Nav Bar**
+
 <details><summary>Screenshots</summary>
 
 <img src="assets/images/readme/nav-bar.webp">
@@ -302,6 +300,7 @@ I imported [Google Fonts](https://fonts.google.com/) and used [Merriweather](htt
 - Hover effect on nav links.
 
 #### **Hero**
+
 <details><summary>Screenshots</summary>
 
 <img src="assets/images/readme/hero-desktop.webp">
@@ -342,6 +341,7 @@ I imported [Google Fonts](https://fonts.google.com/) and used [Merriweather](htt
 - The footer has a responsive design
 
 #### **Favicon**
+
 <details><summary>Screenshot</summary>
 
 <img src="assets/images/readme/favicon.webp">
@@ -355,7 +355,7 @@ I imported [Google Fonts](https://fonts.google.com/) and used [Merriweather](htt
   - *Branding and Recognition:* A favicon is a small but significant branding element. It helps users quickly recognize and remember your website when they have multiple tabs open in their browser. It's like a mini logo that reinforces your brand identity.
   - *Professionalism:* Having a favicon demonstrates professionalism and attention to detail. It shows that I've invested time and effort in making your website visually appealing and user-friendly.
   - *User Experience:* When users bookmark the book club's website or add it to their browser's favorites, the favicon appears next to the website's name. This makes it easier for users to find and revisit your site.
-  - *Tab Identification:* In a browser, the favicon appears in the tab's title bar. It provides a visual cue that helps users distinguish the book club's website from others when they have multiple tabs open. 
+  - *Tab Identification:* In a browser, the favicon appears in the tab's title bar. It provides a visual cue that helps users distinguish the book club's website from others when they have multiple tabs open.
   - *Credibility:* A well-designed favicon can enhance the website's credibility and trustworthiness. It's a small but important aspect of web design that contributes to the overall user experience.
   - *Consistency:* Including a favicon is part of creating a consistent and cohesive design. It adds to the overall aesthetic and complements the design choices I've made elsewhere on the book club's website.
 
@@ -442,6 +442,7 @@ When viewing a page that contained minimal content within the main section the f
 *fix* : Making use of `flexbox` to create a sticky footer. Code was adapted from  [Philip Walton's Sticky Footer demo](https://philipwalton.github.io/solved-by-flexbox/demos/sticky-footer/).
 
 ### HTML Validation
+
 <details><summary>Home</summary>
 <img src="assets/images/readme/index-html-validation-before.webp">
 </details>
@@ -482,12 +483,14 @@ When viewing a page that contained minimal content within the main section the f
 </details>
 
 ### CSS Validation
+
 <details><summary>CSS Validation Results</summary>
 <img src="assets/images/readme/css-validation.webp">
 </details>
 I ran the CSS code through the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input). No errors were found.
 
 ### Accessibility
+
 <details><summary>Screenshot</summary>
     <img src="assets/images/readme/wave.webp">
     </details>
@@ -497,6 +500,7 @@ Ensuring the accessibility of the Bridgend Book Club website was identified as a
 A screenshot has been included to show the Home Page WAVE evalutation which indicates 0 errors, 0 contrast errors, 7 features (including alt text), 13 structural elements (including navigation, header, main content and footer) and 20 ARIA labels.
 
 ### Performance
+
 The Google Chrome Dev Tool Lighthouse was used to evaluate the websites performance. All lighthouse scores for each of the webpages were within the green (90-100) pass mark.
 
 #### **Lighthouse Results**
@@ -524,6 +528,7 @@ The Google Chrome Dev Tool Lighthouse was used to evaluate the websites performa
 </details>
 
 ### Responsiveness / Device Testing
+
 The site was tested on the following devices:
 
 - Insert
@@ -536,6 +541,7 @@ The site was tested on the following devices:
 The website functioned as expected on the above devices.
 
 ### Browser Compatibility
+
 The site was tested on the following browsers:
 
 - Google Chrome
@@ -545,18 +551,28 @@ The site was tested on the following browsers:
 No issues were identified on the above browsers.
 
 ### Testing User Stories
-<!-- Insert info here-->
+
+I tested the site based on my user stories acceptance criteria.
+
+#### User Story 1
+
+| Acceptance Criteria                                                                                                        | Feature                                                      | Action                                                                                                                                                                     | Expected Result                                                                                                                              | Result |
+| -------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- | ------ |
+| User should be able to browse a curated list of recommended books on the homepage.                                         | Book of the month card on 'Home Page' and 'Book Clubs' page. | User to click on individual book clubs based on their book club genre (Fiction/ Non-Fiction/ Sci-Fi, Romance or Thriller) on 'Home' page or through the 'Book Clubs' page. | User to be presented with 5 book recomendations per month based on the following genres: (Fiction/ Non-Fiction/ Sci-Fi, Romance or Thriller) | Pass   |
+| Each book recommendation should include a title, cover image, and a brief summary.                                         | Book Clubs page                                              | User to click 'book clubs' page                                                                                                                                            | User presented with 5 different book clubs, the chosen book of the month, an image, a small summary of the book and the authours name        | Pass   |
+| User should have the option to click on a book to see more details, including event details of the next book club meeting. | Individual book club pages                                   | User to click on 'view' button on the 'Home' page OR individual book club button on the 'Book Clubs' page ie 'Fiction Book Club!'                                          | User presented with tailored book information inbluding 'About the book', 'About the Authour' and 'Next book club event'                     | Pass   |
 
 ## Deployment
+
 ### GitHub Pages
 
 The site was deployed using github by following the below steps:
 
-1. In the GitHub repository, navigate to the Settings tab 
+1. In the GitHub repository, navigate to the Settings tab
 2. From the left hand menu select 'Pages'
 3. From the source select Branch: main
 4. Click 'Save'
-5. A live link will be displayed when published successfully. 
+5. A live link will be displayed when published successfully.
 
 The live link can be found here -  [Bridgend Book Club](https://ffionhaf96.github.io/Project-Milestone-1/)
 
@@ -579,6 +595,7 @@ commit XXXXXXX [Responsive font-size](https://css-tricks.com/snippets/css/fluid-
 Written copy provided by ChatGPT for website content including home intro, 'about us' ETC.
 
 ### Media
+
 All images contained within the 'book-clubs' asset folder were taken from amazon.com
 [fiction.jpg](https://m.media-amazon.com/images/I/71LpgK2QMvL._SL1500_.jpg)
 [non-fiction.jpg](https://m.media-amazon.com/images/I/81e-1MaYjJL._SL1500_.jpg)
@@ -598,4 +615,3 @@ Credits for the images contained within the 'authours' asset folder:
 
 - My mentor [Daisy McGirr](https://github.com/Dee-McG) for all her help and advice throughout the project.
 - The whole team at [Code Institute](https://codeinstitute.net/) for their teaching and support.
-
