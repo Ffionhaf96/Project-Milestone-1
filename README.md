@@ -232,10 +232,42 @@ I imported [Google Fonts](https://fonts.google.com/) and used [Merriweather](htt
 ## Technologies Used
 
 ### Languages
-<!-- Insert info here-->
+- HTML
+  - The structure of the book club website was developed using HTML as the main language.
+- CSS
+  - The bookclub was styled usising custom CSS in an external file.
 
 ### Tools
-<!-- Insert info here-->
+
+- [Code Anywhere](https://codeanywhere.com/)
+  - Used for writing, editing the code for the project.
+
+- [GitHub](https://github.com/)
+  - Used to store the project code after being created in Code Anywhere.
+
+- [Balsamiq](https://balsamiq.com/)
+  - I utilize Balsamiq for crafting wireframes, enabling me to visualize and iterate on the layout and design of the web pages with ease and precision.
+
+- [Bootstrap 5.2.3](https://getbootstrap.com/)
+  - Used to aid the coding of some layout elements, such as the nav bar, footer and cards. Bootstrap enabled the development of a responsive web design. Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development. It contains HTML, CSS and JavaScript-based design templates for typography, forms, buttons, navigation, and other interface components.
+
+-[Google Fonts](https://fonts.google.com/)
+  - Used to select & import the fonts to the project (Merriweather).
+
+- [Font Awesome](https://fontawesome.com/)
+  - Used to add icons to the site in order to improve UX and give it more personality.
+
+- [Tiny Img](https://tiny-img.com/webp/)
+  - Used to further optimise the images for the site and reduce file size
+
+- [Canva](https://www.canva.com/)
+  - Used to design the site logo
+
+-[This Person Does Not Exist](https://thispersondoesnotexist.com/)
+  - Used to generate images for the 'About Us' page.
+
+- [ChatGPT](https://chat.openai.com/)
+  - Used to generte general content for the webpage such as 'About the Author' section.
 
 ## Features
 
