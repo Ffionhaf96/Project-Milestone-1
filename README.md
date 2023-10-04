@@ -199,7 +199,7 @@ I chose to design a minimalist book club website, where the digital realm seamle
 
 #### **Colour**
 
-Soft, muted colors evoke the warmth of reading by a lamplight. We've chosen a palette that soothes the eyes and enhances content readability.
+ I chose a palette that soothes the eyes and enhances content readability by utilising a soft and muted colour palette. 
 
 ![colour pallete](assets/images/readme/colour-scheme-.webp)
 
@@ -210,7 +210,7 @@ Soft, muted colors evoke the warmth of reading by a lamplight. We've chosen a pa
 - *#ffffff* Like the margins of a book page, whitespace surrounds the content, offering a serene reading experience. It allows your eyes to rest, emphasizing the beauty of both text and images.
 
 #### **Fonts**
-<!-- Insert info here-->
+I imported [Google Fonts](https://fonts.google.com/) and used [Merriweather](https://fonts.google.com/specimen/Merriweather) (with a fallback of Sans Serif) for the main body text. Typography is the soul of a book, and I carefully selected classic, readable fonts that transport you to the comforting pages of a novel. 
 
 ## Technologies Used
 
