@@ -46,7 +46,6 @@ This is the documentation for the fictional Bridgend Book Club's  website. It ha
       - [**Bio \& Join Us Button**](#bio--join-us-button)
     - [About Us](#about-us)
       - [**About Us Sections**](#about-us-sections)
-      - [**Call To Action**](#call-to-action)
     - [Book Club](#book-club)
       - [**Book Club Options**](#book-club-options)
     - [Join Us](#join-us)
@@ -188,7 +187,33 @@ Acceptance Criteria:
 I chose to design a minimalist book club website, where the digital realm seamlessly marries the timeless charm of a paper book. At the heart of my design philosophy lies the desire to create an online space that evokes the sensory delight and simplicity of holding a well-loved book in your hands. Here's an overview of my design, layout, and structural principles:
 
 #### **Wireframes**
-<!-- Insert links here for HOME/ ABOUT/ BOOK CLUB/ JOIN US wireframes-->
+#### Desktop Wireframes
+
+<details><summary>Home</summary>
+<img src="assets/images/readme/home-page.png">
+</details>
+<details><summary>About</summary>
+<img src="assets/images/readme/about-page.png">
+</details>
+<details><summary>Book Clubs</summary>
+<img src="assets/images/readme/book-clubs-page.png">
+</details>
+<details><summary>Individual Book Club</summary>
+<img src="assets/images/readme/individual-book-club-page.png">
+</details>
+<details><summary>Join Us</summary>
+<img src="assets/images/readme/join-us-page.png">
+</details>
+
+#### Tablet Wireframes
+<details><summary>Tablet Wireframes</summary>
+<img src="assets/images/readme/tablet-wireframes.png">
+</details>
+
+#### Mobile Wireframes
+<details><summary>Mobile Wireframes</summary>
+<img src="assets/images/readme/mobile-wireframes.png">
+</details>
 
 #### **Structure**
 
