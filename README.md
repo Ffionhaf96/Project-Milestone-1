@@ -208,7 +208,7 @@ The site has a simple structure made up of 4 main pages:
   - A thank you page for when a user had submitted a form.
   - a 404 page for when a user lands on a non-existint page.
 
-On desktop and tablet, the site's navigation bar is fixed at the top of the screen; on mobile, it scrolls with the rest of the page because it takes up too much screen real estate and detracts from the user experience. This feature makes it easy for users to access any page they need at any time and is best suited for repeat visitors who are familiar with the site's layout. Each page also has a footer with connections to the book club's social media pages.
+<!--On desktop and tablet, the site's navigation bar is fixed at the top of the screen; on mobile, it scrolls with the rest of the page because it takes up too much screen real estate and detracts from the user experience. This feature makes it easy for users to access any page they need at any time and is best suited for repeat visitors who are familiar with the site's layout. Each page also has a footer with connections to the book club's social media pages.-->
 
 Additional navigation options include a preferred path through the website via suggested links that would lead a new visitor through the information. This is designed for people who wish to find out more about the individual book clubs. Suggested route: HOME> VIEW (Book Clubs)
 
@@ -276,7 +276,27 @@ I imported [Google Fonts](https://fonts.google.com/) and used [Merriweather](htt
 ### Whole Site
 
 #### **Nav Bar**
-<!-- Insert info here-->
+<details><summary>Screenshots</summary>
+
+<img src="assets/images/readme/nav-bar.webp">
+
+*Navbar - desktop*
+
+<img src="">
+
+*Navbar - hover effect and drop down*
+
+<img src="">
+
+*Navbar - mobile*
+
+</details>
+
+- Appears on all pages.
+- Contains the logo, the name of the bookclub (on larger screens) and nav links to all the main pages.
+- Fully responsive.
+- The page the user is presently on is highlighted.
+- Hover effect on nav links
 
 #### **Hero**
 <!-- Insert info here-->
