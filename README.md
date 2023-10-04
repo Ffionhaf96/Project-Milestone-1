@@ -515,16 +515,41 @@ The Google Chrome Dev Tool Lighthouse was used to evaluate the websites performa
 </details>
 
 ### Responsiveness / Device Testing
-<!-- Insert info here-->
+The site was tested on the following devices:
+
+- Insert
+- Insert
+- Insert
+- Insert
+- Insert
+- Google Chrome Developer Tools - simulator for all different device options as well as using the adjustable sizing options
+
+The website functioned as expected on the above devices.
 
 ### Browser Compatibility
-<!-- Insert info here-->
+The site was tested on the following browsers:
+
+- Google Chrome
+- Mozilla Firefox
+- Apple Safari
+
+No issues were identified on the above browsers.
 
 ### Testing User Stories
 <!-- Insert info here-->
 
 ## Deployment
-<!-- Insert info here-->
+### GitHub Pages
+
+The site was deployed using github by following the below steps:
+
+1. In the GitHub repository, navigate to the Settings tab 
+2. From the left hand menu select 'Pages'
+3. From the source select Branch: main
+4. Click 'Save'
+5. A live link will be displayed when published successfully. 
+
+The live link can be found here -  [Bridgend Book Club](https://ffionhaf96.github.io/Project-Milestone-1/)
 
 ## Credits
 
@@ -545,12 +570,23 @@ commit XXXXXXX [Responsive font-size](https://css-tricks.com/snippets/css/fluid-
 Written copy provided by ChatGPT for website content including home intro, 'about us' ETC.
 
 ### Media
-<!-- Insert info here-->
-All imagss contained within the 'book-clubs' asset folder were taken from amazon.com
+All images contained within the 'book-clubs' asset folder were taken from amazon.com
 [fiction.jpg](https://m.media-amazon.com/images/I/71LpgK2QMvL._SL1500_.jpg)
 [non-fiction.jpg](https://m.media-amazon.com/images/I/81e-1MaYjJL._SL1500_.jpg)
 [romance.jpg](https://m.media-amazon.com/images/I/A1cHsf+YuML._SL1500_.jpg)
 [science-fiction.jpg](https://m.media-amazon.com/images/I/61oivxKw6yL._SL1000_.jpg)
 [thriller](https://m.media-amazon.com/images/I/81chGLxyiPL._SL1500_.jpg)
 
+Credits for the images contained within the 'authours' asset folder:
+
+[Author Alice Winn](https://static01.nyt.com/images/2023/03/07/multimedia/03Winn1-zvjl/03Winn1-zvjl-superJumbo.jpg?quality=75&auto=webp)
+[Author Erin Kelly](https://scontent.fbrs5-1.fna.fbcdn.net/v/t39.30808-6/300636883_503156945146447_3656737766634193712_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=a2f6c7&_nc_ohc=td2Mn1OjEsMAX9GwCp8&_nc_ht=scontent.fbrs5-1.fna&oh=00_AfC2UQJgfEKKxU0iqNgO4vCz9jD3myxXiai32EXBQAc5fA&oe=65205E84)
+[Author Kate Goldbeck](https://www.randomhousebooks.com/wp-content/uploads/2022/06/Kate-Goldbeck_headshot-edited.jpg)
+[AuthorLucy Worsley](https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Lucy_Worsley_2019.jpg/220px-Lucy_Worsley_2019.jpg)
+[Author Stephen Baxter](https://citaty.net/media/authors/stephen-baxter.300w.webp)
+
 ### Acknowledgements
+
+- My mentor [Daisy McGirr](https://github.com/Dee-McG) for all her help and advice throughout the project.
+- The whole team at [Code Institute](https://codeinstitute.net/) for their teaching and support.
+
