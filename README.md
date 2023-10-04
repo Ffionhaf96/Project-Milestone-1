@@ -547,7 +547,8 @@ The code for all the pages was ran through the [W3C HTML Validator](https://vali
 <details><summary>CSS Validation Results</summary>
 <img src="assets/images/readme/css-validation.webp">
 </details>
-I ran the CSS code through the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input). No errors were found.
+
+I ran the CSS code through the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/). No errors were found.
 
 ### Accessibility
 
@@ -591,12 +592,9 @@ The Google Chrome Dev Tool Lighthouse was used to evaluate the websites performa
 
 The site was tested on the following devices:
 
-- Insert
-- Insert
-- Insert
-- Insert
-- Insert
-- Google Chrome Developer Tools - simulator for all different device options as well as using the adjustable sizing options
+- Pixel 6
+- Samsung S23 Ultra
+- Google Chrome & Firefox Developer Tools - simulated for all different device options as well as using the adjustable sizing options
 
 The website functioned as expected on the above devices.
 
@@ -607,6 +605,8 @@ The site was tested on the following browsers:
 - Google Chrome
 - Mozilla Firefox
 - Apple Safari
+
+HTML elements and css properties were checked to ensure widespread browser adoption before using them via [Mdn web docs](https://developer.mozilla.org/en-US/docs/Web)
 
 No issues were identified on the above browsers.
 
@@ -638,10 +638,24 @@ I tested the site based on my user stories acceptance criteria.
 | ------------------------------------------------------------------------------ | --------------------------------------------------- | ------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------ |
 | User to be presented with event information when on individual book club page. | Event details included on individual book club page | User to click on individual book club ie Fiction | User to click on individual book club they are interested in and be presented with an events section including date and location of next event (google maps) | Pass   |
 
-## Deployment
+## Development and Deployment Process
+This website was developed and deployed using GitHub for hosting and version control during the project.
+
+### Git
+- The repository was forked from the [ci-full-template](https://github.com/Code-Institute-Org/ci-full-template) provided by Code-Institute (CI) to create the repository `Project-Milestone-1`.
+- The project was pulled down from github to the cloud IDE [codeanywhere](https://codeanywhere.com/) by supplying the HTTP repository URL.
+- Commits were made following the [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0-beta.4/)
+- To add the files to git locally I used the `git add <file_name>` command
+- To commit the files I used the `git commit -m <message>` command. All commits were made directly to `main`
+- To push a commit or multiple commits I used the `git push` command to track it with the remote origin.
+  
+### Dev Server
+
+- To help aiding development and testing of the site I used the python module `http.server`. There was an alias, `http_server` created already for us to use from the CI template repo.
+
+- This was accessed on `http://<port>-ffionhaf96-project-miles-<random-string>.us2.codeanyapp.com`.
 
 ### GitHub Pages
-
 The site was deployed using github by following the below steps:
 
 1. In the GitHub repository, navigate to the Settings tab
