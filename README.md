@@ -4,7 +4,7 @@
 
 #### **By Ffion Haf Edwards**
 
-[Click here to view the live web application] (https://ffionhaf96.github.io/Project-Milestone-1/)
+[Click here to view the live web application](https://ffionhaf96.github.io/Project-Milestone-1/index.html)
 
 #### **BRIDGEND BOOK CLUB**
 
