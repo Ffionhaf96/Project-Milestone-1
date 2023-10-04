@@ -461,7 +461,7 @@ When viewing a page that contained minimal content within the main section the f
 
 #### **Results**
 
-2 of the pages contained errors; 'Home' and 'Book Clubs'.
+2 of the pages contained errors: 'Home' and 'Book Clubs'. These errors were rectified and then passed the HTML validation.
 
 #### **HTML Validation After Fixes**
 
@@ -488,7 +488,31 @@ Ensuring the accessibility of the Bridgend Book Club website was identified as a
 A screenshot has been included to show the Home Page WAVE evalutation which indicates 0 errors, 0 contrast errors, 7 features (including alt text), 13 structural elements (including navigation, header, main content and footer) and 20 ARIA labels.
 
 ### Performance
-<!-- Insert info here-->
+The Google Chrome Dev Tool Lighthouse was used to evaluate the websites performance. All lighthouse scores for each of the webpages were within the green (90-100) pass mark.
+
+#### **Lighthouse Results**
+
+<details><summary>Home</summary>
+<img src="assets/images/readme/home-desktop-lighthouse.webp">
+</details>
+<details><summary>About Us</summary>
+<img src="assets/images/readme/about-us-desktop-lighthouse.webp">
+</details>
+<details><summary>Book Clubs</summary>
+<img src="assets/images/readme/book-clubs-desktop-lighthouse.webp">
+</details>
+<details><summary>Individual Book Club (Example Fiction)</summary>
+<img src="assets/images/readme/fiction-desktop-lighthouse.webp">
+</details>
+<details><summary>Join Us</summary>
+<img src="assets/images/readme/join-us-desktop-lighthouse.webp">
+</details>
+<details><summary>Thankyou</summary>
+<img src="assets/images/readme/thank-you-desktop-lighthouse.webp">
+</details>
+<details><summary>404</summary>
+<img src="assets/images/readme/404-desktop-lighthouse.webp">
+</details>
 
 ### Responsiveness / Device Testing
 <!-- Insert info here-->
