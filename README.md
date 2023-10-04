@@ -390,7 +390,7 @@ I imported [Google Fonts](https://fonts.google.com/) and used [Merriweather](htt
 
 <details><summary>Screenshot</summary>
 
-<img src="">
+<img src="assets/images/readme/404-webpage.webp">
 
 *404 page*
 
