@@ -271,6 +271,9 @@ I imported [Google Fonts](https://fonts.google.com/) and used [Merriweather](htt
 - [ChatGPT](https://chat.openai.com/)
   - Used to generte general content for the webpage such as 'About the Author' section.
 
+- [WAVE](https://wave.webaim.org/)
+  - Evaluation tools that helps authors make their web content more accessible to individuals with disabilities.
+
 ## Features
 
 ### Whole Site
@@ -339,7 +342,22 @@ I imported [Google Fonts](https://fonts.google.com/) and used [Merriweather](htt
 - The footer has a responsive design
 
 #### **Favicon**
-<!-- Insert info here-->
+<details><summary>Screenshots</summary>
+
+<img src="assets/images/readme/favicon.webp">
+
+*Favicon*
+
+</details>
+
+- I added a favicon feature to the Bridgend Book Club logo in the top tab of the site in order to enhnce:
+  
+  - *Branding and Recognition:* A favicon is a small but significant branding element. It helps users quickly recognize and remember your website when they have multiple tabs open in their browser. It's like a mini logo that reinforces your brand identity.
+  - *Professionalism:* Having a favicon demonstrates professionalism and attention to detail. It shows that I've invested time and effort in making your website visually appealing and user-friendly.
+  - *User Experience:* When users bookmark the book club's website or add it to their browser's favorites, the favicon appears next to the website's name. This makes it easier for users to find and revisit your site.
+  - *Tab Identification:* In a browser, the favicon appears in the tab's title bar. It provides a visual cue that helps users distinguish the book club's website from others when they have multiple tabs open. 
+  - *Credibility:* A well-designed favicon can enhance the website's credibility and trustworthiness. It's a small but important aspect of web design that contributes to the overall user experience.
+  - *Consistency:* Including a favicon is part of creating a consistent and cohesive design. It adds to the overall aesthetic and complements the design choices I've made elsewhere on the book club's website.
 
 ### Home Page
 
@@ -421,7 +439,13 @@ When viewing a page that contained minimal content within the main section the f
 <!-- Insert info here-->
 
 ### Accessibility
-<!-- Insert info here-->
+<details><summary>Screenshot</summary>
+    <img src="assets/images/readme/wave.webp">
+    </details>
+
+Ensuring the accessibility of the Bridgend Book Club website was identified as a priority. Accessibility allows all users, including those with disabilities, to access and use our content effectively. To assess the accessibility of the website I utilised the [WAVE](https://wave.webaim.org/) accessibility evaluation tool as a development tool to help identify and address accessibility issues.
+
+A screenshot has been included to show the Home Page WAVE evalutation which indicates 0 errors, 0 contrast errors, 7 features (including alt text), 13 structural elements (including navigation, header, main content and footer) and 20 ARIA labels.
 
 ### Performance
 <!-- Insert info here-->
