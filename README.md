@@ -286,7 +286,7 @@ I imported [Google Fonts](https://fonts.google.com/) and used [Merriweather](htt
 
 *Navbar - hover effect and drop down*
 
-<img src="">
+<img src="assets/images/readme/mobile-navbar.webp">
 
 *Navbar - mobile*
 
@@ -296,13 +296,47 @@ I imported [Google Fonts](https://fonts.google.com/) and used [Merriweather](htt
 - Contains the logo, the name of the bookclub (on larger screens) and nav links to all the main pages.
 - Fully responsive.
 - The page the user is presently on is highlighted.
-- Hover effect on nav links
+- Hover effect on nav links.
 
 #### **Hero**
-<!-- Insert info here-->
+<details><summary>Screenshots</summary>
+
+<img src="assets/images/readme/hero-desktop.webp">
+
+*Hero - Home on Desktop*
+
+<img src="assets/images/readme/hero-mobile.webp">
+
+*Hero - Home on Mobile*
+
+</details>
+
+- Hero image included on the home page with a welcome message.
+- The hero image has a gradient over it to improve the legibility of the text.
+- Hero image is responsive
 
 #### **Footer**
-<!-- Insert info here-->
+
+<details><summary>Screenshots</summary>
+
+<img src="assets/images/readme/footer-desktop.webp">
+
+*Footer on Desktop*
+
+<img src="">
+
+*Footer Social Links Animation*
+
+<img src="assets/images/readme/footer-mobile.webp">
+
+*Footer on mobile*
+
+</details>
+
+- The footer appears on all pages.
+- The footer contains links to social media pages and make use of icons.
+- All links open in a separate tab.
+- The footer has a responsive design
 
 #### **Favicon**
 <!-- Insert info here-->
