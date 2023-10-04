@@ -342,7 +342,7 @@ I imported [Google Fonts](https://fonts.google.com/) and used [Merriweather](htt
 - The footer has a responsive design
 
 #### **Favicon**
-<details><summary>Screenshots</summary>
+<details><summary>Screenshot</summary>
 
 <img src="assets/images/readme/favicon.webp">
 
@@ -387,7 +387,16 @@ I imported [Google Fonts](https://fonts.google.com/) and used [Merriweather](htt
 <!-- Insert info here-->
 
 #### **404 Page**
-<!-- Insert info here-->
+
+<details><summary>Screenshot</summary>
+
+<img src="">
+
+*404 page*
+
+</details>
+
+A custom 404 page was added to enhance user experience by providing a helpful error messages and navigation options, ensuring that visitors can easily find their way around the website even when encountering broken links or missing content.
 
 ### Future Features
 <!-- Insert info here-->
