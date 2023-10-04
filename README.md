@@ -195,7 +195,24 @@ I chose to design a minimalist book club website, where the digital realm seamle
 
 #### **Structure**
 
-<!-- Insert structure info here-->
+The scope, user, and client goals, as well as the concepts of IXD (interaction design), were all taken into consideration when building the site's structure to ensure that I was meeting user expectations and making everything as intuitive as I could.
+
+The site has a simple structure made up of 4 main pages:
+
+- Homepage - a short introduction to the bookclub and it's ethos and a summary of the book clubs included and photos of the current books being discussed at each book club.
+- About Us - more detailed information about the book club, it's committee members and a contact email.
+- Book Clubs - information about the 5 book club genres that have been established, alongisde a brief summary of which book is being currently being discussed in each book club.
+- Join Us - information about joining the book club and a form to express interest in joining which specific clubs.
+- There are also 7 additional sub pages:
+  - 5 individual book club pages: including information about the book, author and next book club event.
+  - A thank you page for when a user had submitted a form.
+  - a 404 page for when a user lands on a non-existint page.
+
+On desktop and tablet, the site's navigation bar is fixed at the top of the screen; on mobile, it scrolls with the rest of the page because it takes up too much screen real estate and detracts from the user experience. This feature makes it easy for users to access any page they need at any time and is best suited for repeat visitors who are familiar with the site's layout. Each page also has a footer with connections to the book club's social media pages.
+
+Additional navigation options include a preferred path through the website via suggested links that would lead a new visitor through the information. This is designed for people who wish to find out more about the individual book clubs. Suggested route: HOME> VIEW (Book Clubs)
+
+[Home Page - Individual Book Club View Button](assets/images/readme/structure-screenshot-view.webp)
 
 #### **Colour**
 
