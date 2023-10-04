@@ -501,6 +501,7 @@ When viewing a page that contained minimal content within the main section the f
 
 ### HTML Validation
 
+The code for all the pages was ran through the [W3C HTML Validator](https://validator.w3.org/nu/)
 <details><summary>Home</summary>
 <img src="assets/images/readme/index-html-validation-before.webp">
 </details>
