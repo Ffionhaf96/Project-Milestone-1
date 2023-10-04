@@ -672,9 +672,9 @@ The live link can be found here -  [Bridgend Book Club](https://ffionhaf96.githu
 
 ### Code
 
-commit 3174818: [move navbar list items to right](https://stackoverflow.com/a/70125008)
+[move navbar list items to right](https://stackoverflow.com/a/70125008)
 
-commit XXXXXXX [Responsive font-size](https://css-tricks.com/snippets/css/fluid-typography/)
+[Responsive font-size](https://css-tricks.com/snippets/css/fluid-typography/)
 
 #### Google Maps Embed
 
